@@ -139,4 +139,10 @@ body {
     color: #ffffff;
 }
 
+/* Light red background red text*/
+.dislikes:hover {
+    background-color: #fdd6d6;
+    color: #F65A5B;
+}
+
 
