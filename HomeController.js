@@ -88,7 +88,49 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
-	}
+	},
+    { 
+      title:      'Ferris Bueller\'s Day Off', 
+      iscore:     7.8,
+      rating:     'PG-13',
+      runtime:    103,
+      released:   new Date('1986', '06', '11'),
+      country:    'USA',
+      posters:    ['img/ferrisbueller.jpg','img/bueller2.jpg'],
+      imdb:       'http://www.imdb.com/title/tt0091042',
+      website:    'https://en.wikipedia.org/wiki/Ferris_Bueller%27s_Day_Off',
+      likes:      978,
+      dislikes:   69,
+      posterindex: 0
+      },
+    { 
+      title:      'Moonrise Kingdom', 
+      iscore:     7.8,
+      rating:     'PG-13',
+      runtime:    94,
+      released:   new Date('2012', '06', '29'),
+      country:    'USA',
+      posters:    ['img/moonrise1.jpg','img/moonrise2.jpg','img/moonrise3.jpg','img/moonrise4.jpg','img/moonrise5.jpg'],
+      imdb:       '[http://www.imdb.com/title/tt1748122',
+      website:    'https://en.wikipedia.org/wiki/Moonrise_Kingdom',
+      likes:      837,
+      dislikes:   173,
+      posterindex: 0
+      },
+    { 
+      title:      'The Avengers', 
+      iscore:     8.1,
+      rating:     'PG-13',
+      runtime:    143,
+      released:   new Date('2012', '05', '04'),
+      country:    'USA',
+      posters:    ['img/avengers1.jpg','img/avengers2.jpg'],
+      imdb:       'http://www.imdb.com/title/tt0848228',
+      website:    'https://marvel.com/movies/movie/152/marvels_the_avengers',
+      likes:      999,
+      dislikes:   21,
+      posterindex: 0
+      }
 	
 	
   ];
