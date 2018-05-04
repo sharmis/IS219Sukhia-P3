@@ -127,5 +127,11 @@ body {
     color: #ffffff;
 }
 
+/* Light green background green text*/
+.likes:hover {
+    background-color: #9edd87;
+    color: #008700;
+}
+
 
 
