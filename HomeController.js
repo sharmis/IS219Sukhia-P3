@@ -93,7 +93,6 @@ app.controller('HomeController', ['$scope', function($scope) {
 	
   ];
 	
-	
 
 	
 	/* ADD VARIABLES FOR STEP 3 HERE */
@@ -103,16 +102,23 @@ app.controller('HomeController', ['$scope', function($scope) {
 	
 	
 	
-	
-	
 	/* ADD FUNCTIONS FOR STEP 7 HERE */
 		
-	
-	
-	
-	
-	
-	
-	
+	$scope.like = function(index){
+    $scope.movies[index].likes += 1;
+  };
+      
+  $scope.dislike = function(index){
+    $scope.movies[index].dislikes += 1;
+  };
+
+  $scope.posterClick = function(index){
+    movie = $scope.movies[index]
+    movie.posterindex = (movie.posterindex + 1) % movie.posters.length;  
+  };
+      
+  $scope.timeText = function(minutes){
+    return Math.floor(minutes / 60) + 'h ' + minutes % 60 + 'm'
+  };
 	
 }]);
