@@ -110,7 +110,7 @@ app.controller('HomeController', ['$scope', function($scope) {
       runtime:    94,
       released:   new Date('2012', '06', '29'),
       country:    'USA',
-      posters:    ['img/moonrise1.jpg','img/moonrise2.jpg','img/moonrise3.jpg','img/moonrise4.jpg','img/moonrise5.jpg'],
+      posters:    ['img/moonrise1.jpg','img/moon2.jpg','img/moon3.jpg','img/moon4.jpg'],
       imdb:       '[http://www.imdb.com/title/tt1748122',
       website:    'https://en.wikipedia.org/wiki/Moonrise_Kingdom',
       likes:      837,
