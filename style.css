@@ -138,13 +138,13 @@ body {
 .dislikes {
     background-color: #f65a5b;
     color: #ffffff;
+    transition: all 500ms ease;
 }
 
 /* Light red background red text*/
 .dislikes:hover {
     background-color: #fdd6d6;
     color: #F65A5B;
-    transition: all 500ms ease;
 }
 
 
