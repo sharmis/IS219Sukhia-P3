@@ -133,5 +133,10 @@ body {
     color: #008700;
 }
 
+/* Red background white text*/
+.dislikes {
+    background-color: #f65a5b;
+    color: #ffffff;
+}
 
 
